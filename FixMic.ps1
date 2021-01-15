@@ -38,13 +38,13 @@ $NotificationText = ""
 # now and then, and sometimes isn't even there, so I'm using regex matching instead of string compare.
 
 # Priority of microphones. The higher in the list, the more priority the microphone has.
-$MicrophonePriorityList = "Valve VR Radio \& HMD Mic",
+$MicrophonePriorityList = "Digital Audio Interface \(Valve VR Radio \& HMD Mic\)",
                           "Microphone \(Yeti Stereo Microphone\)",
                           "Microphone \((\d)*(- )?(Logitech )?G935(\/G933s)? Gaming Headset\)",
                           "Microphone Array \((\d)*(- )?Realtek\(R\) Audio\)"
 
 # Priority of speakers. The higher in the list, the more priority the speaker has.
-$SpeakersPriorityList = "Index HMD",
+$SpeakersPriorityList = "Index HMD \(NVIDIA High Definition Audio\)",
                         "Speakers \((\d)*(- )?(Logitech )?G935(\/G933s)? Gaming Headset\)",
                         "Speakers(\/HP)? \((\d)*(- )?Realtek\(R\) Audio\)"
 
