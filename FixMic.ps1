@@ -104,5 +104,3 @@ if ($CorrectSpeakersID -ne "") {
 }
 
 Show-Notification -ToastTitle "AudioFix" -ToastText $NotificationText
-
-'lalala'
