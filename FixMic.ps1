@@ -38,13 +38,15 @@ $NotificationText = ""
 # now and then, and sometimes isn't even there, so I'm using regex matching instead of string compare.
 
 # Priority of microphones. The higher in the list, the more priority the microphone has.
-$MicrophonePriorityList = "Microphone \(Yeti Stereo Microphone\)",
+$MicrophonePriorityList = "Valve VR Radio \& HMD Mic",
+                          "Microphone \(Yeti Stereo Microphone\)",
                           "Microphone \((\d)*(- )?(Logitech )?G935(\/G933s)? Gaming Headset\)",
                           "Microphone Array \((\d)*(- )?Realtek\(R\) Audio\)"
 
 # Priority of speakers. The higher in the list, the more priority the speaker has.
-$SpeakersPriorityList = "Speakers \((\d)*(- )?(Logitech )?G935(\/G933s)? Gaming Headset\)",
-                       "Speakers(\/HP)? \((\d)*(- )?Realtek\(R\) Audio\)"
+$SpeakersPriorityList = "Index HMD",
+                        "Speakers \((\d)*(- )?(Logitech )?G935(\/G933s)? Gaming Headset\)",
+                        "Speakers(\/HP)? \((\d)*(- )?Realtek\(R\) Audio\)"
 
 $CorrectMicrophoneID = ""
 :micloop foreach ($mic in $MicrophonePriorityList) {
